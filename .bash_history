@@ -43,3 +43,23 @@ docker ps
 docker -itd -p 8090 --name kiran2 ubuntu
 docker run -itd -p 8090 --name kiran2 ubuntu
 docker attach kiran2
+ls
+git --v
+git --version
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/kiran062/DEMO
+git remote add origin https://github.com/kiran062/repository.git
+git push -u origin master
+git log
+git config --global user.name "kiran062"
+git config --global user.email "kingkiran938@gmail.com"
+git log
+git push -u origin master
+git pull origin master
+git push -u origin master
+ls
+git checkout DEMO
+git checkout
+git add .
